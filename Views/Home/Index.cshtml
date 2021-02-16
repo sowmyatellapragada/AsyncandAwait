@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Welcome To Innroad";
+}
+@model IEnumerable<string>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FIRST ASYNC PROJECT</title>
+</head>
+<body>
+    <ul>
+        @foreach (string s in Model)
+        {
+            <li>@s</li>
+        }
+
+    </ul>
+</body>
+</html>
